@@ -1,7 +1,8 @@
 :root {
-    --base-color: #EEB902;
-    --primary-color: #A20021;
+    --base-color: #f5dd84;
+    --primary-color: #b658b0;
     --secondary-color: #FFFCF3;
+    --tertiary-color: #545454;
 }
 
 * {
@@ -45,8 +46,8 @@ header img {
 #cover .headline {
     font-size: 4rem;
     vertical-align: middle;
-    background-color: var(--primary-color);
-    color: white;
+    background-color: var(--base-color);
+    color: var(--tertiary-color);
     padding: .5rem;
     margin-bottom: 2rem;
 }
@@ -69,28 +70,30 @@ header img {
 
 .button.industry {
     display: inline-block;
-    background-color: #ffffff;
-    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    border: 1px solid var(--tertiary-color);
+    text-shadow: 1px 1px 1px #545454;
 }
 
 .button.industry a {
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .button.researcher {
     display: inline-block;
-    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
 .button.researcher a {
-    color: #fff;
+    color: var(--primary-color);
 }
 
 .title {
     text-transform: uppercase;
     font-weight: bold;
     margin: 1rem 0;
-    color: var(--primary-color);
+    color: var(--tertiary-color);
     padding-left: 2rem;
 }
 
@@ -108,13 +111,13 @@ header img {
 }
 
 #how .how-list {
-    border-top: 1px solid var(--primary-color);
+    border-top: 2px solid var(--base-color);
     background-color: var(--secondary-color);
     padding: 2rem 0 1rem 5%;
 }
 
 #how .list-item {
-    color: var(--primary-color);
+    color: var(--tertiary-color);
     font-size: 1.3rem;
     margin-left: 1rem;
 }
