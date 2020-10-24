@@ -1,0 +1,147 @@
+:root {
+    --base-color: #EEB902;
+    --primary-color: #A20021;
+    --secondary-color: #FFFCF3;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url("Roboto/Roboto-Medium.eot");
+    src: url("Roboto/Roboto-Medium.woff") format("woff"),
+    url("Roboto/Roboto-Medium.otf") format("opentype"),
+    url("Roboto/Roboto-Medium.svg#filename") format("svg");
+}
+
+header {
+   padding: 2rem;
+}
+
+header img {
+    max-width: 5rem;
+}
+
+#cover {
+    border-top: 10px solid var(--base-color);
+    border-bottom: 5px solid var(--base-color);
+    background: url('images/cover.jpg') no-repeat bottom;
+    background-size: cover;
+    display: flex;
+    height: 50vh;
+    align-items: center;
+}
+
+.cover-container {
+    padding-left: 6rem;
+}
+
+#cover .headline {
+    font-size: 4rem;
+    vertical-align: middle;
+    background-color: var(--primary-color);
+    color: white;
+    padding: .5rem;
+    margin-bottom: 2rem;
+}
+
+.button {
+    border-radius: 4px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.button.industry {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+
+.button.industry a {
+    color: #ffffff;
+}
+
+.button.researcher {
+    display: inline-block;
+    background-color: var(--base-color);
+}
+
+.button.researcher a {
+    color: #ffffff;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 1rem 0;
+    color: var(--primary-color);
+    padding-left: 2rem;
+}
+
+#what {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 4rem 6rem;
+    color: var(--primary-color);
+}
+
+#how {
+    border-top: 5px solid var(--base-color);
+}
+
+#how .how-list {
+    border-top: 1px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 2rem 0 1rem 1rem;
+}
+
+#how .list-item {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+
+ol {
+    list-style: none;
+    counter-reset: numList;
+}
+
+ol li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+}
+
+ol li:before {
+    background: var(--primary-color);
+    border-radius: 100rem;
+    counter-increment: numList;
+    content: counter(numList);
+    color: #fff;
+    clear: both;
+    float: left;
+    height: 20px;
+    width: 20px;
+    padding: .5rem;
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
