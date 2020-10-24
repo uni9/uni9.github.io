@@ -2,7 +2,6 @@
     --base-color: #EEB902;
     --primary-color: #A20021;
     --secondary-color: #FFFCF3;
-
 }
 
 * {
@@ -39,7 +38,8 @@ header img {
 }
 
 .cover-container {
-    padding-left: 6rem;
+    margin-left: 10%;
+    margin-right: 5%;
 }
 
 #cover .headline {
@@ -53,6 +53,8 @@ header img {
 
 .button {
     border-radius: 4px;
+    box-shadow: 1px 1px 2px #666;
+    font-size: 1.2rem;
 }
 
 .button:hover {
@@ -67,21 +69,21 @@ header img {
 
 .button.industry {
     display: inline-block;
-    background-color: var(--primary-color);
-    color: #ffffff;
+    background-color: #ffffff;
+    border: 1px solid var(--primary-color);
 }
 
 .button.industry a {
-    color: #ffffff;
+    color: var(--primary-color);
 }
 
 .button.researcher {
     display: inline-block;
-    background-color: var(--base-color);
+    background-color: var(--primary-color);
 }
 
 .button.researcher a {
-    color: #ffffff;
+    color: #fff;
 }
 
 .title {
@@ -97,7 +99,7 @@ header img {
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    padding: 4rem 6rem;
+    padding: 4rem 15%;
     color: var(--primary-color);
 }
 
@@ -108,7 +110,7 @@ header img {
 #how .how-list {
     border-top: 1px solid var(--primary-color);
     background-color: var(--secondary-color);
-    padding: 2rem 0 1rem 1rem;
+    padding: 2rem 0 1rem 5%;
 }
 
 #how .list-item {
@@ -125,8 +127,7 @@ ol {
 ol li {
     display: flex;
     align-items: center;
-    margin-bottom: 1rem;
-    margin-left: 3rem;
+    margin: 0 5% 1rem;
 }
 
 ol li:before {
