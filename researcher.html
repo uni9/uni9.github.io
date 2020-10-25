@@ -28,6 +28,45 @@
             Clique abaixo e preencha o nosso formulário de cadastro.</p>
         </div>
     </main>
+
+    <div class="form">
+        <form action="https://api.staticforms.xyz/submit" method="post" id="staticform">
+            <input type="hidden" name="accessKey" value="7833884b-13e1-4979-ad8d-9ea04d8936ae">
+            <input type="hidden" name="subject" value="Researcher">
+            <input type="hidden" name="redirectTo" value="https://uni9.github.io/success.html">
+            <div class="field">
+                <label class="label">Nome</label>
+                <div class="control">
+                    <input class="input" type="text" name="name" placeholder="Digite seu nome" required>
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Email</label>
+                <div class="control">
+                    <input class="input" type="email" name="email" placeholder="Digite seu email" required>
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Currículo Lattes</label>
+                <div class="control">
+                    <input class="input" type="url" name="lattes" placeholder="Insira o link do seu currículo Lattes." required>
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Instituição / Universidade</label>
+                <div class="control">
+                    <input class="input" type="text" name="name" placeholder="Digite o nome de onde está vinculado." required>
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Área de atuação</label>
+                <div class="control">
+                    <textarea class="textarea" name="message" placeholder="Nos conte em qual área de atuação sua pesquisa está focada." required></textarea>
+                </div>
+            </div>
+            <button class="button is-primary" type="Submit">Enviar</button>
+        </form>
+    </div>
 </body>
 
 </html>
