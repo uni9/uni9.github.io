@@ -153,6 +153,7 @@ ol li:before {
 
 .left-container img {
     width: 100%;
+    margin-bottom: -6px;
 }
 
 .right-container {
@@ -160,7 +161,7 @@ ol li:before {
 }
 
 .right-container p {
-    margin: 0 2rem;
+    margin: 0 5% 0 10%;
     font-size: 1.5rem;
     color: var(--tertiary-color);
 }
@@ -168,4 +169,34 @@ ol li:before {
 main {
     display: flex;
     align-items: center;
+    border-bottom: 5px solid var(--tertiary-color);
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+    font-size: 1.2rem;
+    background-color: var(--secondary-color);
+}
+
+.form input {
+    margin-bottom: 1rem;
+    padding: .5rem;
+    width: 20vw;
+}
+
+.form textarea {
+    padding: .5rem;
+    width: 20vw;
+}
+
+.form button {
+    background-color: var(--base-color);
+    padding: .5rem 1rem;
+    font-size: 1rem;
+}
+
+.form ::placeholder {
+    color: #bbb;
 }

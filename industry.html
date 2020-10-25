@@ -26,6 +26,33 @@
             <p>Olá, realizaremos uma busca manual no nosso banco de dados para achar o seu parceiro ideal. Por favor, nos conte qual a sua necessidade e em seguida preencha o nosso formulário.</p>
         </div>
     </main>
+
+    <div class="form">
+        <form action="https://api.staticforms.xyz/submit" method="post" id="staticform">
+            <input type="hidden" name="accessKey" value="7833884b-13e1-4979-ad8d-9ea04d8936ae">
+            <input type="hidden" name="subject" value="Industry Interested">
+            <input type="hidden" name="redirectTo" value="success.html">
+            <div class="field">
+                <label class="label">Nome</label>
+                <div class="control">
+                    <input class="input" type="text" name="name" placeholder="Digite seu nome" required>
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Email</label>
+                <div class="control">
+                    <input class="input" type="email" name="email" placeholder="Digite seu email" required>
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Mensagem</label>
+                <div class="control">
+                    <textarea class="textarea" name="message" placeholder="Explique sua necessidade." required></textarea>
+                </div>
+            </div>
+            <button class="button is-primary" type="Submit">Enviar</button>
+        </form>
+    </div>
 </body>
 
 </html>
