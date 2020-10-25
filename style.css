@@ -21,6 +21,10 @@ header img {
     max-width: 5rem;
 }
 
+nav {
+    float: right;
+}
+
 #cover {
     border-bottom: 5px solid var(--tertiary-color);
     background: url('images/cover.jpg') no-repeat bottom;
