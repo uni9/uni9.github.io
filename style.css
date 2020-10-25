@@ -22,6 +22,7 @@
 
 header {
    padding: 2rem;
+   border-bottom: 10px solid var(--base-color);
 }
 
 header img {
@@ -29,7 +30,6 @@ header img {
 }
 
 #cover {
-    border-top: 10px solid var(--base-color);
     border-bottom: 5px solid var(--base-color);
     background: url('images/cover.jpg') no-repeat bottom;
     background-size: cover;
@@ -148,4 +148,27 @@ ol li:before {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.left-container {
+    width: 50vw;
+}
+
+.left-container img {
+    width: 100%;
+}
+
+.right-container {
+    width: 50vw;
+}
+
+.right-container p {
+    margin: 0 2rem;
+    font-size: 1.5rem;
+    color: var(--tertiary-color);
+}
+
+main {
+    display: flex;
+    align-items: center;
 }
