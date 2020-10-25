@@ -12,16 +12,20 @@
 }
 
 header {
-   padding: 2rem;
-   border-bottom: 10px solid var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 10px solid var(--secondary-color);
 }
 
 header img {
     max-width: 5rem;
 }
 
-nav {
-    float: right;
+h1 {
+    font-size: 4rem;
+    margin-left: 10%;
 }
 
 #cover {
