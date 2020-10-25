@@ -12,17 +12,9 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: "Roboto-Medium";
-    src: url("Roboto/Roboto-Medium.eot");
-    src: url("Roboto/Roboto-Medium.woff") format("woff"),
-    url("Roboto/Roboto-Medium.otf") format("opentype"),
-    url("Roboto/Roboto-Medium.svg#filename") format("svg");
-}
-
 header {
    padding: 2rem;
-   border-bottom: 10px solid var(--base-color);
+   border-bottom: 10px solid var(--tertiary-color);
 }
 
 header img {
@@ -30,7 +22,7 @@ header img {
 }
 
 #cover {
-    border-bottom: 5px solid var(--base-color);
+    border-bottom: 5px solid var(--tertiary-color);
     background: url('images/cover.jpg') no-repeat bottom;
     background-size: cover;
     display: flex;
@@ -39,17 +31,17 @@ header img {
 }
 
 .cover-container {
-    margin-left: 10%;
+    margin-left: 8%;
     margin-right: 5%;
 }
 
 #cover .headline {
     font-size: 4rem;
     vertical-align: middle;
-    background-color: var(--base-color);
     color: var(--tertiary-color);
     padding: .5rem;
     margin-bottom: 2rem;
+    max-width: 50vw;
 }
 
 .button {
@@ -107,11 +99,11 @@ header img {
 }
 
 #how {
-    border-top: 5px solid var(--base-color);
+    border-top: 5px solid var(--tertiary-color);
 }
 
 #how .how-list {
-    border-top: 2px solid var(--base-color);
+    border-top: 2px solid var(--tertiary-color);
     background-color: var(--secondary-color);
     padding: 2rem 0 1rem 5%;
 }
