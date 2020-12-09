@@ -1,0 +1,42 @@
+{
+    "researchers": [
+        {
+            "name": "Maria Alice Zarur Coelho",
+            "photo": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4728062A6",
+            "occupation": "Engenheira Química - chefe no Laboratorio Biose",
+            "research": [
+                "Valorização de Resíduos Agroindustriais",
+                "Extração Enzimática de Compostos Bioativos",
+                "Estudo de Sistemas sob Estresse Celular",
+                "Uso de solventes verdes em Cultivos Microbianos",
+                "Monitoração e Modelagem de Bioprocessos por Análise Digital de Imagens",
+                "Yarrowia lipolytica como Plataforma Industrial"
+            ],
+            "lattes": "http://lattes.cnpq.br/7892919789980668"
+        },
+        {
+            "name": "Priscilla Filomena Fonseca Amaral",
+            "photo": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4762790H3",
+            "occupation": "Engenheira Química - chefe do laboratório By&Bio",
+            "research": [
+                "Valorização de resíduos agroindustriais",
+                "Tratamento e aproveitamento de rejeitos",
+                "Enzimologia",
+                "Processos Bioquímicos"
+            ],
+            "lattes": "http://lattes.cnpq.br/3903704349157492"
+        },
+        {
+            "name": "Tatiana Felix Ferreira",
+            "photo": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4757277J6",
+            "occupation": "Química - chefe do laboratório By&Bio",
+            "research": [
+                "Valorização de resíduos industriais",
+                "Produção de bioprodutos (biocombustíveis, biofármacos)",
+                "Fermentação de gás de síntese",
+                "Desenvolvimento de sistemas para análises químicas"
+            ],
+            "lattes": "http://lattes.cnpq.br/9305189616403797"
+        }
+    ]
+}
