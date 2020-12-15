@@ -28,13 +28,7 @@
         <p>Em um universo altamente competitivo, a união do conhecimento acadêmico às estratégias de negócio, proporcionam um
         grande diferencial no desenvolvimento de novos produtos e serviços.</p>
     </div>
-    <div id="search">
-        <form action="#" class="search-form" role="search">
-            <input class="search" type="text" placeholder="Busque por área de atuação, especialidade ou linha de pesquisa" id="search" autocomplete="on"
-                autofocus>
-        </form>
-    </div>
-    <div id="search-result"></div>
+
     <div id="how">
         <p class="title">Como funciona</p>
         <div class="how-list">
@@ -46,21 +40,5 @@
             </ol>
         </div>
     </div>
-
-    <script id="template" type="x-tmpl-mustache">
-        {{#researchers}}
-            <img width="50" src="{{ photo }}" alt="{{ name }}">
-            Nome: {{ name }}
-            Lattes: {{ lattes }}
-            Ocupação: {{ occupation }}
-            Atuação
-            {{#research}}
-            * {{.}}
-            {{/research}}
-        {{/researchers}}
-    </script>
-
-    <script src="https://unpkg.com/mustache@latest"></script>
-    <script src="script.js"></script>
 </body>
 </html>

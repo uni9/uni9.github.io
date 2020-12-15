@@ -2,6 +2,7 @@
     "researchers": [
         {
             "name": "Maria Alice Zarur Coelho",
+            "slug": "maria-alice-zarur-coelho",
             "photo": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4728062A6",
             "occupation": "Engenheira Química - chefe no Laboratorio Biose",
             "research": [
@@ -16,6 +17,7 @@
         },
         {
             "name": "Priscilla Filomena Fonseca Amaral",
+            "slug": "priscilla-filomena-fonseca-amaral",
             "photo": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4762790H3",
             "occupation": "Engenheira Química - chefe do laboratório By&Bio",
             "research": [
@@ -28,6 +30,7 @@
         },
         {
             "name": "Tatiana Felix Ferreira",
+            "slug": "tatiana-felix-ferreira",
             "photo": "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4757277J6",
             "occupation": "Química - chefe do laboratório By&Bio",
             "research": [
